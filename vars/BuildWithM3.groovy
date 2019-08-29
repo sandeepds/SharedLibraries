@@ -1,4 +1,4 @@
-def call() {
+def call(script) {
     // Run the maven build
     withEnv(["MVN_HOME=$mvnHome"]) {
        if (isUnix()) {
