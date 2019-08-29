@@ -1,3 +1,4 @@
+def mvnHome = tool 'M3'
 def call(script) {
     // Run the maven build
     withEnv(["MVN_HOME=$mvnHome"]) {
