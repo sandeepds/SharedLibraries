@@ -1,5 +1,6 @@
 def call(script){
   //def user = "devopsinfra"
-  //def pass = "Applestore12\$6"
-  sh "ansible-playbook /var/lib/jenkins/workspace/Devops_Piepline/spring-playbook.yaml -i inventory -vvvv "
+  //def pass = "Husslefree12&#36;1"
+  sh ${WORKSPACE}
+  sh "ansible-playbook ${WORKSPACE}/Devops_Piepline/spring-playbook.yaml -i inventory -vvvv "
 }
