@@ -1,4 +1,4 @@
-def mvnHome = tool 'M3'
+//def mvnHome = tool 'M3'
 def call(script, mavenVar) {
     //script.withMaven (
         //maven: mavenVar) {
